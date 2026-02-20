@@ -1,0 +1,52 @@
+You are labeling topics for a document clustering project.
+
+TASK:
+Given representative documents from ONE cluster, generate an interpretable short topic label.
+
+IMPORTANT OUTPUT FORMAT:
+Return STRICT JSON ONLY (no markdown, no commentary) with exactly these fields:
+{
+  "cluster_id": <int>,
+  "subcluster_id": <int>,
+  "label": <string>,
+  "rationale": <string>,
+  "keywords": <array of strings>
+}
+
+RULES:
+- label: 3 to 8 words, human-readable, not too broad, not too technical.
+- rationale: 1-2 sentences explaining why the label fits the documents.
+- keywords: 5-10 keywords or keyphrases (strings), derived from the content.
+- If the cluster is mixed, pick the dominant theme and mention mixed nature in rationale.
+
+
+CLUSTER_ID: 1
+SUBCLUSTER_ID: 2
+
+REPRESENTATIVE DOCUMENTS:
+
+[Doc 1]
+Well, I have it forsale again (the last deal didn't work out) and I lowered the price again! Cobra 146 GTL Single side band w/mike --> $75 or best offer! dave --------------------------------------------------------------------------------Cal Poly, Life, Liberty, and the SLO, CA 93401 Pursuit of Land Speed Records. -Autobahn Commuters
+
+[Doc 2]
+FOR SALE 1990 Mitsubishi Eclipse GSX * All Wheel Drive * 195 HP, 16 Valve, Turbo * 5 Speed Transmission * Limited Slip Differential * AM/FM Stereo w/CD Player, Cassette, 6 Speakers * Fog Lights * Air Conditioning * Cruise Control * Electric Windows * Front & Rear Intermittent Wipers & Washers * Alloy Wheels * Undercoated & Rustproofed * 22,000 Miles * Maui Blue * Excellent Condition * Asking $ 11,899 (negotiable)
+
+[Doc 3]
+Lots of misc and radio related items for sale! Still trying to lighten my load for moving! Motorola VHF pager, digital, no voice or readout $15 2 Capacitor checkers HP 200CD audio oscillator 5 hz to 600 Khz. 1200 feet + brand new 1/2" hardline for tv with new connectors, this is in 5 pieces lots of Gain mobile antennas for VHF and UHF UHF *amp*, input on 75 Mhz in milliwatts and output on 450 Mhz, 30 watts out. with service manual, this came out of a Motorola mobilephone. make reasonable offer. looking for $40 + shipping or trade for? RCA tac 300 UHF dash mount 2channel w/service manual, great
+
+[Doc 4]
+I've got a 4PR1000A (EIMAC) unused transmitter tube for sale. Best offer so far is $125. That's getting close to what I'll sell it for. Hamfest prices have been about $200 - $250. It works, guaranteed. Original packaging. -- -------------------------------------------------------------------- Dave Medin Phone: (205) 730-3169 (w) SSD--Networking (205) 837-1174 (h) Intergraph Corp. M/S GD3004 Internet: dtmedin@catbyte.b30.ingr.com Huntsville, AL 35894 UUCP: ...uunet!ingr!b30!catbyte!dtmedin
+
+[Doc 5]
+I'm posting this for a friend, but you can e-mail questions to me at gyeh@cc.bellcore.com However, the best way to get your questions answered is to call the phone number listed. FOR SALE: 1991 Volkswagon Corrado 2+2 coupe Low mileage: approx. 28,000 miles 5-speed manual 7 speaker factory Blaupunkt stereo system New all-weather Yokohamas 205/50VR15 Sun roof AC Red Speed activated spoiler Extra set of tires - Pirelli P600 195VR15 ** Equipped with factory Winter package - heated seats, mirrors and nozzles. ** Alpine security system with 2 remotes. All records - documentation, service Pampered ca
+
+[Doc 6]
+1992 Saturn SL2 5spd 23K miles AC, cruise, ABS, Air Bag, Cassette, Anti Theft Excellent 12,000/obo Consider 85-88 4dr 5spd compact as part trade
+
+[Doc 7]
+I'm selling an assortment of goods!! They're all in excellent shape (the amp and detector were rarely used). Thule rack with locks for VW GTI or Jetta (2yrs)........ $75 Silca floor bike pump (pink) ........................... 20 Uniden Radar Detector (X and K bands, orig $134) ....... 75 Blaupunkt 60W car amp (orig $150) ...................... 75 Shipping included in all prices. Interested? Please respond by email (whsld login or sldenton@cbnewsj.cb.att.com) or phone (201) 386-2949 office.
+
+[Doc 8]
+F O R S A L E ================ Triumph Spitfire '76, 1500 - Convertible - 54,000k original miles - Burgandy Color - Wooden Dashboard - No rust - Garage kept - Heater - Chrome bumpers(not the black plastic crap) - Brand new top - Asking $3,000 --negotiable * Mechanically the car is in a very good shape and it is running very-very strong(if you know what I mean)...:) * Plenty of catalogs and manuals are coming with the car If you are interested in the car please reply to this message. I AM NOT INTERESTED OR WILLING TO SELL ANY PARTS. The car is in a very good condition to strip it.
+
+NOW RETURN STRICT JSON ONLY.

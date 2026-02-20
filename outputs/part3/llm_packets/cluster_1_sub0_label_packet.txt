@@ -1,0 +1,52 @@
+You are labeling topics for a document clustering project.
+
+TASK:
+Given representative documents from ONE cluster, generate an interpretable short topic label.
+
+IMPORTANT OUTPUT FORMAT:
+Return STRICT JSON ONLY (no markdown, no commentary) with exactly these fields:
+{
+  "cluster_id": <int>,
+  "subcluster_id": <int>,
+  "label": <string>,
+  "rationale": <string>,
+  "keywords": <array of strings>
+}
+
+RULES:
+- label: 3 to 8 words, human-readable, not too broad, not too technical.
+- rationale: 1-2 sentences explaining why the label fits the documents.
+- keywords: 5-10 keywords or keyphrases (strings), derived from the content.
+- If the cluster is mixed, pick the dominant theme and mention mixed nature in rationale.
+
+
+CLUSTER_ID: 1
+SUBCLUSTER_ID: 0
+
+REPRESENTATIVE DOCUMENTS:
+
+[Doc 1]
+Visual Numerics Inc. (formerly IMSL and Precision Visuals) is in the process of securing sites for beta testing X Exponent Graphics 1.0 and C Exponent Graphics 2.0. (Both X Exponent Graphics and C Exponent Graphics are 3GL products). The beta period is from April 26 through June 18. The platform is HP9000/700 running under OS 8.07 with ansi C 8.71 compiler. The media will be sent on 4mm DAT cartridge tape. Here are some of the key facts about the two products. X Exponent Graphics 1.0 key facts: 1. Complete collection of high-level 2D and 3D application plot types available through a large coll
+
+[Doc 2]
+If a X-window package exists, that runs om PC, DOS (and maybe MS-windows) I would be very happy to hear about it. Thanx in advance.
+
+[Doc 3]
+From 9150618 Thu Apr 29 16:36:43 1993 Date: Thu, 29 Apr 1993 16:36:42 +1000 From: 9150618 (Gavin Fairlamb) To: 9130037 Status: R Hello, folks... I am doing a uni. project and was wondering if you could supply with some specific info. or references for info. regarding 1). Considerations for installation of XWindows in a HP 9000(unknown model) 2). Motif, OPENLOOK, XToolkit, Linux???? 3). X11, X11R.... 4). Glossary of any term on X We considering this software for the project which deals in image analysis... Any info. would be greatly appreciated.
+
+[Doc 4]
+From 9150618 Thu Apr 29 16:36:43 1993 Date: Thu, 29 Apr 1993 16:36:42 +1000 From: 9150618 (Gavin Fairlamb) To: 9130037 Status: R Hello, folks... I am doing a uni. project and was wondering if you could supply with some specific info. or references for info. regarding 1). Considerations for installation of XWindows in a HP 9000(unknown model) 2). Motif, OPENLOOK, XToolkit???? 3). X11, X11R.... 4). Glossary of any term on X We considering this software for the project which deals in image analysis... Any info. would be greatly appreciated.
+
+[Doc 5]
+Are there any TIFF to anything programs out there for the IBM? Our scanner works into TIFF, and I can view it on CSHOW 8.1, but all of my other programs read errors. Are there any basic Tiff to JPEG, GIF, PCX, BMP, etc...? Thanks for the time...Email or post acceptable. Joshuaf
+
+[Doc 6]
+I'm posting this request again since the last one had no title. I'm looking for X server software on DOS or Windows. I've already seen Desqview/X and XVision but would like to be aware of other solutions, namely public domain or shareware implementations. I'd also like to know, in the commercial case, about possible problems, incompatibilities, available window managers and libraries, etc. If you have any experiences in this area please let me know. C U! By(e)
+
+[Doc 7]
+I would be grateful to anyone who knows about an X-windows application that would emulate HP 2623A graphics in a manner similar to the way TEK graphics windows are implemented in xterm. Thanks for you help.
+
+[Doc 8]
+Bristol Technology announces the availability of its HyperHelp(tm) and Xprinter(tm) demo for downloading. This demo showcases the two products in the form of a diagram editor called DE. Download the demo and see some of these exciting features for yourself: o Complete on-line context sensitive help system. o Printing support for PCL5 and PostScript. o Rotated Text support! o Source code for the demo is provided. The demo is available via anonymous ftp from ftp.uu.net (137.39.1.9). There are two versions of the demo located in the vendor/Bristol directory: Sun - sun4.demo.tar.Z (SunOS 4.x) HP -
+
+NOW RETURN STRICT JSON ONLY.

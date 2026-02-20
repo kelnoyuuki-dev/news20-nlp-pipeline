@@ -1,0 +1,11 @@
+Cluster 0: people / just / think
+  - Sub0: people / just / like
+  - Sub1: game / team / year
+  - Sub2: people / just / think
+
+Cluster 1: like / know / thanks
+  - Sub0: windows / thanks / file
+  - Sub1: drive / card / know
+  - Sub2: like / know / thanks
+
+Cluster 2: hello

@@ -1,0 +1,72 @@
+[
+  {
+    "true_idx": 19,
+    "pred_idx": 15,
+    "true_label": "talk.religion.misc",
+    "pred_label": "soc.religion.christian",
+    "count": 136
+  },
+  {
+    "true_idx": 18,
+    "pred_idx": 16,
+    "true_label": "talk.politics.misc",
+    "pred_label": "talk.politics.guns",
+    "count": 99
+  },
+  {
+    "true_idx": 0,
+    "pred_idx": 15,
+    "true_label": "alt.atheism",
+    "pred_label": "soc.religion.christian",
+    "count": 94
+  },
+  {
+    "true_idx": 4,
+    "pred_idx": 3,
+    "true_label": "comp.sys.mac.hardware",
+    "pred_label": "comp.sys.ibm.pc.hardware",
+    "count": 55
+  },
+  {
+    "true_idx": 8,
+    "pred_idx": 7,
+    "true_label": "rec.motorcycles",
+    "pred_label": "rec.autos",
+    "count": 53
+  },
+  {
+    "true_idx": 3,
+    "pred_idx": 2,
+    "true_label": "comp.sys.ibm.pc.hardware",
+    "pred_label": "comp.os.ms-windows.misc",
+    "count": 43
+  },
+  {
+    "true_idx": 12,
+    "pred_idx": 3,
+    "true_label": "sci.electronics",
+    "pred_label": "comp.sys.ibm.pc.hardware",
+    "count": 38
+  },
+  {
+    "true_idx": 3,
+    "pred_idx": 4,
+    "true_label": "comp.sys.ibm.pc.hardware",
+    "pred_label": "comp.sys.mac.hardware",
+    "count": 34
+  },
+  {
+    "true_idx": 1,
+    "pred_idx": 5,
+    "true_label": "comp.graphics",
+    "pred_label": "comp.windows.x",
+    "count": 32
+  },
+  {
+    "true_idx": 5,
+    "pred_idx": 1,
+    "true_label": "comp.windows.x",
+    "pred_label": "comp.graphics",
+    "count": 32
+  }
+]

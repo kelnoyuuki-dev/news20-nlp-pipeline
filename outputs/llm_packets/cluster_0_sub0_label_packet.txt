@@ -1,0 +1,52 @@
+You are labeling topics for a document clustering project.
+
+TASK:
+Given representative documents from ONE cluster, generate an interpretable short topic label.
+
+IMPORTANT OUTPUT FORMAT:
+Return STRICT JSON ONLY (no markdown, no commentary) with exactly these fields:
+{
+  "cluster_id": <int>,
+  "subcluster_id": <int>,
+  "label": <string>,
+  "rationale": <string>,
+  "keywords": <array of strings>
+}
+
+RULES:
+- label: 3 to 8 words, human-readable, not too broad, not too technical.
+- rationale: 1-2 sentences explaining why the label fits the documents.
+- keywords: 5-10 keywords or keyphrases (strings), derived from the content.
+- If the cluster is mixed, pick the dominant theme and mention mixed nature in rationale.
+
+
+CLUSTER_ID: 0
+SUBCLUSTER_ID: 0
+
+REPRESENTATIVE DOCUMENTS:
+
+[Doc 1]
+: In article <1r6p8oINN8hi@clem.handheld.com>, jmd@cube.handheld.com (Jim De : > : > I have not made up my mind about Waco, but there sure seems to be a group of : > devoted government following fanatics willing to believe whatever that : > government wants to tell them, without any shred of doubt, nor thought of thier : > own. They sure get shrill whenever their belief structure is being shaken. : > : > Kinda reminds you of the BDs, doesn't it? : > : > Jim : Go to hell. I'm no "government [-] following fanatic." Your sweeping : generalizations evince your own ignorance. What were they suppose
+
+[Doc 2]
+Woops. I'm not sure if I screwed up, but this is either forgery or some sort of mistake (aborted post that didn't abort) on my part. Bogus article below if seen in another post should be ignored.. --------------------------------------------------------------------------- / iftccu:talk.politics.guns / bressler@iftccu.ca.boeing.com (Rick Bressler) / 3:29 pm Apr 13, 1993 / / iftccu:talk.politics.guns / papresco@undergrad.math.uwaterloo.ca (Paul Prescod) / 1:49 am Apr 12, 1993 / Let's look at this critically: 1.How many guns did this illegal manufacturing site make compared to -------------------
+
+[Doc 3]
+From: "dan mckinnon" <dan.mckinnon@canrem.com> I have lurked here a bit lately, and though some of the math is unknown to me, found it interesting. I thought I would post an article I found in the Saturday, April 17, 1993 Toronto Star: 'CLIPPER CHIP' to protect privacy Politics is of course Dirty Pool, old man, and here we have a classic example: the NSA and the administration have been working on this for a *long* time, and in parallel with the announcement to us techies, we see they're hitting the press with propoganda. It's my bet the big magazines - Byte, Scientific American, et all - will
+
+[Doc 4]
+Again we have the trust in government problem here. Members of Mr. Sternlight's generation trust the government to a degree which members of my generation find ridiculous. I would suggest that Mr. Sternlight read about the COINTELPRO program, or about J. Edgar Hoover, or about the wire-tapping of Martin Luther King, then, after he has digested this information he can ponder the fact that while the government does not tap every conversation that they have a record of tapping many conversations that they have no right to, even under their own laws. Given the long history of members of the US gov
+
+[Doc 5]
+The Denver Post (supposed voice of the supposed Rocky Mountain Empire) ran the following in the 'Firearms, Supplies' classified heading on Friday, 23 April 1993. If you have an opinion about their new found wisdom, I am told that the person to speak with is one Mr. Walters, (303)820-1267. Notice The Denver Post will no longer knowingly accept any advertise- ment to buy or sell assault weap- ons. The Denver Post finds that the use of assault weapons poses a threat to the health, safety, and security of its readers. Let 'em know what you think... --Dan -- Spooksmoke: Revolution, Assasination, Th
+
+[Doc 6]
+-----BEGIN PGP SIGNED MESSAGE----- Please note that the following speech was made by Chuck Hammill in 1987. Address all letters to his address, given at the end of this document. -- Russell FROM CROSSBOWS TO CRYPTOGRAPHY: THWARTING THE STATE VIA TECHNOLOGY Given at the Future of Freedom Conference, November 1987 You know, technology--and particularly computer technology--has often gotten a bad rap in Libertarian cir- cles. We tend to think of Orwell's 1984, or Terry Gilliam's Brazil, or the proximity detectors keeping East Berlin's slave/citizens on their own side of the border, or the so- phi
+
+[Doc 7]
+Well, isn't this just a hoot! :) All I read on this group is a bunch of ppl fearing the misuses of information by the big bad evil govt. This just happens to be a case of an ordinary-joe-netter, who decided that he would create and/or distribute some misinformation. Ppl buy into BS posts like this (I know, because I forwarded a copy of the post to my office mate, who turned around and was (although he won't admit it...sorry Joe!) ready to get in a fight about F-O-R-F-E-I-T-U-R-E!!!) Please, if we're going to hold our govt (which admittedly has had and still has its problems) to high standards,
+
+[Doc 8]
+:>Hey, gang, it's not about duck hunting, or about dark alleys, :>it's about black-clad, helmeted and booted troops storming :>houses and violating civil rights under color of law. :> :>Are YOU ready to defend YOUR Constitution? : :Its also about crazy fatigue clad survivalist types blasting the :snot out of people who accidentally stray onto his land in the :name of 'self defense.' Well, the count is now at least 86 dead by government action. How many have been killed in the last year in the manner you described? What, no facts? Oh, how silly of me; I forgot, you don't like guns, so you don't
+
+NOW RETURN STRICT JSON ONLY.

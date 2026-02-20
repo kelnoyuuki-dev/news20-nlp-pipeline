@@ -1,0 +1,52 @@
+You are labeling topics for a document clustering project.
+
+TASK:
+Given representative documents from ONE cluster, generate an interpretable short topic label.
+
+IMPORTANT OUTPUT FORMAT:
+Return STRICT JSON ONLY (no markdown, no commentary) with exactly these fields:
+{
+  "cluster_id": <int>,
+  "subcluster_id": <int>,
+  "label": <string>,
+  "rationale": <string>,
+  "keywords": <array of strings>
+}
+
+RULES:
+- label: 3 to 8 words, human-readable, not too broad, not too technical.
+- rationale: 1-2 sentences explaining why the label fits the documents.
+- keywords: 5-10 keywords or keyphrases (strings), derived from the content.
+- If the cluster is mixed, pick the dominant theme and mention mixed nature in rationale.
+
+
+CLUSTER_ID: 0
+SUBCLUSTER_ID: 2
+
+REPRESENTATIVE DOCUMENTS:
+
+[Doc 1]
+Your last remark is a contradiction, but I'll let that pass. I was addressing the notion of the Great Commission, which you deleted in order to provide us with dull little homilies. Thank you, Bing Crosby. Now you go right on back to sleep and mommy and daddy will tuck you in later. Oh, and how convenient his bible must have been to Michael Griffin, how convenient his Christianity. "Well, I'll just skip the bit about not murdering people and loving the sinner and hating the sin and all that other stuff for now and concentrate on the part where it says that if someone is doing something wrong,
+
+[Doc 2]
+Andrew, How I wish this were true, and how I long for the day in which it will be true. But alas, it is not true of history. The Bible does not have a message -- it has messages. And some of those are messages of repentance and giving, to turn the other cheek, and do unto the least of these. But some of the messages are the complete opposite. Like the isrealites order to wipe out other tribes including women and children down to cattle, and punished severely when they were less than complete about the job. Like jews who are said to have cried out in Matthew, "His blood be upon our heads and ou
+
+[Doc 3]
+A listmember (D Andrew Killie, I think) wrote, in response to the suggestion that genocide may sometimes be the will of God: > Any God who works that way is indescribably evil, > and unworthy of my worship or faith. Nobuya "Higgy" Higashiyama replied (as, in substance, did others): > Where is your source of moral standards by which you judge God's > behavior? It is often argued that we have no standing by which to judge God's actions. Who is the clay to talk back to the potter? But we find a contrary view in Scripture. When God proposes to destroy the city of + Suppose that there are some good
+
+[Doc 4]
+Desiree Bradley (Desiree_Bradley@mindlink.bc.ca) asked us whether we should think of the Serbs as doing God's work in Bosnia. I've refrained from posting, in hope that someone who is more familiar with the OT than I would answer. But at this point I feel I have to say something. Many things about this posting bother me. I know of not the slightest suggestion in the NT that Christians should use force to propagate the Gospel, and the idea that we should not be concerned about the death of Moslems violates the heart of the Gospel. Christ died to break down these distinctions. In him there is nei
+
+[Doc 5]
+As our local.religion.christian BBS group seems moribund, I'm posting here. On one of the Sundays just before Easter I went to church. The sermon was based on a story in the Book of Joshua. (The one about Joshua sending out spies to the land he was planning to take) What I particularly remember, because of having heard part of a CBC radio documentary on Bosnia, was that the Rahab (the woman who sheltered the spies) said that the people were "melting in fear." What with having heard that CBC radio documentary and knowing that the Muslims in Bosnia were losing the war, I felt uncomfortable. Afte
+
+[Doc 6]
+: >Based on the amount of E-Mail from fellow Christians who have read the : >posts and told me I was wasting my time with Butler and Joslin, I told : >them I wasn't doing it for DB or DJ but for other Christians. They : >have told me that DB's and DJ's arguments won't convince most Bible : >studying Christians. So I have reevaluated my purpose here and it's : >also contributed to my decision. : So most Bible-studying Christians won't be convinced by my arguments? : And this is supposed to be a Good Thing, I presume? Where does this "Most Bible studying Christians think as Frank does" come from
+
+[Doc 7]
+"savior" that their Tolerent, aren't we? Their's was hardly the first faith/sect/cult to espouse this type of belief. and I keep hearing this, and while I'll agree that he "should" have come out (legally, that was his best option), he didn't; and as far as I know, there is no legal provision for "we're tired of this shit, lets just kick some ass..." So I have a question for you; here goes. I come up to you and point a gun at you, saying "I'm going to count to ten, if you aren't standing on your head by then, I'll kill you." You believe that standing on your head is the road to damnation, so yo
+
+[Doc 8]
+Sadly understandable... Yes. To be fair, you should really qualify this as semitic-western religions, but you basically go ahead and do this later on anyway. Again, this should really be evaluated at a personal level. For example, there was only one Jesus (presumably), and he probably didn't say all that many things, and yet (seemingly) billions and billions of Christian sects have arisen. Perhaps there is one that is totally dedicated to rationalism and believes in Christ as in pantheism. It would seem to go against the Bible, but it is amazing what people come up with under the guise of "per
+
+NOW RETURN STRICT JSON ONLY.

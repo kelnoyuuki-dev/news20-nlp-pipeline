@@ -1,0 +1,15 @@
+{
+  "best_model": "RandomForest",
+  "best_macro_f1": 0.6352534766590818,
+  "st_model": "all-MiniLM-L6-v2",
+  "normalize": true,
+  "batch_size": 64,
+  "remove": [
+    "headers",
+    "footers",
+    "quotes"
+  ],
+  "seed": 42,
+  "total_docs": 18846,
+  "num_classes": 20
+}

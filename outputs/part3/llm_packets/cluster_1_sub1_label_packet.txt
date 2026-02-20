@@ -1,0 +1,52 @@
+You are labeling topics for a document clustering project.
+
+TASK:
+Given representative documents from ONE cluster, generate an interpretable short topic label.
+
+IMPORTANT OUTPUT FORMAT:
+Return STRICT JSON ONLY (no markdown, no commentary) with exactly these fields:
+{
+  "cluster_id": <int>,
+  "subcluster_id": <int>,
+  "label": <string>,
+  "rationale": <string>,
+  "keywords": <array of strings>
+}
+
+RULES:
+- label: 3 to 8 words, human-readable, not too broad, not too technical.
+- rationale: 1-2 sentences explaining why the label fits the documents.
+- keywords: 5-10 keywords or keyphrases (strings), derived from the content.
+- If the cluster is mixed, pick the dominant theme and mention mixed nature in rationale.
+
+
+CLUSTER_ID: 1
+SUBCLUSTER_ID: 1
+
+REPRESENTATIVE DOCUMENTS:
+
+[Doc 1]
+386DX 25Mhz (DTK motherboard Intel microprocessor) 128k internal cache 4 megs Ram 89 meg Harddrive (IDE controller) 1.2 meg floppy drive 1.44 meg floppy drive 2 serial ports 1 parallel port Samsung VGA monitor VGA graphics card 101 key keyboard 2400 baud internal modem MS-DOS 6.0 Procomm Plus ver. 2.0 Norton Utilities ver. 4.5 other varius utilities I'm upgrading and need to sell. The system is reliable and ready to go. I've never had any problems with it. I'm asking $1050 o.b.o. If you're interested, please respond by either E-mail or phone. TAE0460@zeus.tamu.edu or 409-696-6043
+
+[Doc 2]
+I have the following system for sale. 386DX 25Mhz (DTK motherboard Intel microprocessor) 64k external cache 4 megs Ram 89 meg Harddrive (IDE controller) 1.2 meg floppy drive 1.44 meg floppy drive 2 serial ports 1 parallel port Samsung VGA monitor SVGA graphics card (tseng labs w/ 1meg) awesome card. 101 key keyboard 2400 baud internal modem Software: MS-DOS 6.0 Procomm Plus ver. 2.0 Norton Utilities ver. 4.5 other various utilities I'm upgrading and need to sell. The system is reliable and ready to go. I've never had any problems with it. I'm asking $1000 o.b.o. If you're interested, please re
+
+[Doc 3]
+From: sam.halperin@cccbbs.uceng 486 DX 50 mHz in Zero Insertion Force Socket Empty over-drive socket EISA motherboard with 256k cache -->2 32 bit EISA Slots -->2 32 bit VESA local bus slots -->4 16 bit ISA slots 8 MB 70ns RAM -->8 SIMMS sockets filled with 1mb strips (0 sockets open) 32 bit EISA IDE hard drive controller 330 Meg IDE hard disk drive w/ 64k cache (12ms) Diamond Viper Weitek 9000 VESA local bus graphics card w/ 2mb 15" MAG MX15F monitor 2 Serial(NS16550AFN UART), 1 parralell & 1 game ports Full tower case -->250 Watt power supply -->5 X 5.25" bays -->2 X 3.5" bays -->2 X Hard Dri
+
+[Doc 4]
+Sorry for the frequency of the posting (I'm in a time crunch). I'm selling my toys so I can afford a house :_( -Amiga 4000/040 -25 MHz 68040 (built in FPU/MMU) -18 megs of RAM, 2 megs of video RAM, expandable to 2 gigabytes -A2091 SCSI controller -Fujitsu 520M 3.5" SCSI drive, 12ms, 3 years warranty -1 year of on-site service remaining -$3000 OBO -Epson ES300C full page 600DPI, 24 bit color scanner w/sware and ADPro loader -software (standalone and ADPro loader) -docs -cable -$850 -Supra FAXmodem V.32 bis, 14.4K, latest ROMs -$205 -SCSI CD-ROM drive, 400ms, internal -$225 -Mitsubishi DiamondSc
+
+[Doc 5]
+After a rough start purchasing a 486 system (see earlier post), I'm trying again. I'm looking at the following system offered by EPS Technologies: - 486dx 33mhz w/ 256K static RAM cache,AMI Bios - 3 32-bit VESA local bus slots, 3 16-bit slots, 1 8-bit slot - Teac 1.2 & 1.44 mb floppy drives - Maxtor 170 MB hard drive (15 ms) IDE w/64K cache buffer - 32-bit vesa local bus video card w/ 1mb RAM 1024 X 768 NI (I *think* it's an Orchid Fahrenheit 1280 card) - 14" NI Multisync monitor 1024 X 768 - 101 Keyboard - 200 Watt power supply - Windows 3.1, Mouse, DOS 6.0 - *3* years limited warranty - 1 ye
+
+[Doc 6]
+Gene's stuff for sale...NEW PRICES!!! The following items are for sale: Qty. Description List Price ________________________________________________________________________ 1 SuperMac ColorLink SX/T 24 bit NuBUS/10BASE-T 750.00 _549.00_ This card is primo! selling for $675 mailorder It suports monitors up to 19 in. with 28" x 28" virtual desktop. Accelerated, hardware pan, etc! This quick sale price includes free 2nd day air! 1 Seagate ST1480 430 meg 3.5 in HD 2 mo. old 989.00 675.00 NOTE: All hardware is in normal working order. Prices do NOT include shipping. All items shipped COD (USA) or p
+
+[Doc 7]
+I would like to sell my PS/2 Model 50, with its Kingston SX/Now! 33MHz processor, a Cyrix FasMath coprocessor (CPU/FPU LandMark scores of 46.6MHz/107.8MHz), 8 Meg (9 Meg total) on a AST Advantage/2 board (0 wait state), original 20 Meg hard drive, and a very fast Adaptec 1640 SCSI controller card (worth around $300 new) with software to control any external or internal SCSI device. I'm including Dos 6.0 (or 5.0), and keyboard. The VGA will drive any multisynching or straight VGA (cheap) monitor.
+
+[Doc 8]
+I'm buying a new system this week to replace my brain dead 286, and could use some feedback on a couple systems I'm looking at if anyone is familiar with them. The system that looks the most interesting is the Budget 486/66 VLB tower. For about $2343 (delivered) it offers VLB, 8MB, 200MB IDE, a Mitsumi CD-ROM (with software bundle), Media Vision Sound board, 14" CTX 1468NI, 128K Cache, and the usual drives, ports, & OS software. Since my budget is $2350 for a system, it seems almost too good to be true (which may mean it IS too good to be true, of course). Among other things, I've never seen a
+
+NOW RETURN STRICT JSON ONLY.

@@ -1,0 +1,17 @@
+{
+  "st_model": "all-MiniLM-L6-v2",
+  "split": "train",
+  "remove": [
+    "headers",
+    "footers",
+    "quotes"
+  ],
+  "batch_size": 64,
+  "seed": 42,
+  "normalize": true,
+  "shape": [
+    11314,
+    384
+  ],
+  "dtype": "float32"
+}

@@ -1,0 +1,22 @@
+{
+  "best_model": "MultinomialNB",
+  "best_macro_f1": 0.6801537209017441,
+  "vectorizer_cfg": {
+    "vectorizer_type": "tfidf",
+    "max_features": 60000,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "stop_words": "english"
+  },
+  "remove": [
+    "headers",
+    "footers",
+    "quotes"
+  ],
+  "seed": 42,
+  "total_docs": 18846,
+  "num_classes": 20
+}

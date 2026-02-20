@@ -1,0 +1,52 @@
+You are labeling topics for a document clustering project.
+
+TASK:
+Given representative documents from ONE cluster, generate an interpretable short topic label.
+
+IMPORTANT OUTPUT FORMAT:
+Return STRICT JSON ONLY (no markdown, no commentary) with exactly these fields:
+{
+  "cluster_id": <int>,
+  "subcluster_id": <int>,
+  "label": <string>,
+  "rationale": <string>,
+  "keywords": <array of strings>
+}
+
+RULES:
+- label: 3 to 8 words, human-readable, not too broad, not too technical.
+- rationale: 1-2 sentences explaining why the label fits the documents.
+- keywords: 5-10 keywords or keyphrases (strings), derived from the content.
+- If the cluster is mixed, pick the dominant theme and mention mixed nature in rationale.
+
+
+CLUSTER_ID: 0
+SUBCLUSTER_ID: 1
+
+REPRESENTATIVE DOCUMENTS:
+
+[Doc 1]
+Here are the standings after game 2 of each of the divisional semi-final series. - Andrew USENET Hockey Playoff Draft Standings Posn Team Pts Rem Last Posn 1. Sneddon Scorers 77 25 (1) 2. Arctic Circles 75 25 (75) Northern Lights 75 25 (33) Threepeat 75 25 (19) 5. fighting amish 74 25 (161) Team Elvis 74 25 (11) 7. chris roney 73 25 (33) Myers Marauders 73 25 (--) the dead ducks 73 25 (11) 10. Les Poteux 72 25 (--) Sludge 72 25 (75) Paige Faults 72 25 (33) Sam & His Dogs 72 25 (33) The Borg 72 25 (2) Hurricane Andrew 72 25 (4) Lewey's Lakers 72 25 (102) Einstien's Punk Band 72 25 (9) 18. Homes
+
+[Doc 2]
+I really feel the need for a knowledgable hockey observer to explain this year's playoffs to me. I mean, the obviously superior Toronto team with the best center and the best goalie in the league keeps losing. What gives? -- ------------------------------------------------------------------------------- I stand by all the misstatements that I've made. -- Vice President Dan Quayle to Sam Donaldson, 8/17/89
+
+[Doc 3]
+What are the Leafs to do? I am a Leaf supporter and I say the Leafs are going down in four unless there is nothing short of a miracle or a stroke of genenius hits Pat Burns. If you were Pat Burns what would you do? Living in the Bay area, I do not get enough Leaf coverage to pull something out of the bag, (I would appreciate comments on the Leaf/Detroit 3rd line match-ups) but here is the basic idea... Andreychuck and Borchevsky have no business playing against the Wings. They are too small. The key to any Leafs success will have to be Clark. He is the only centre who can have any presence wit
+
+[Doc 4]
+We're probably stuck, as Mike Burger pointed out that the baseball deal was made far in advance of the NHL contract. WABC did the same thing; they were thankful that the Devils were wiped out by 9:30, because they had to switch over to Yankees baseball. The proof of the reasons for this is left to the reader ... It's too bad, but I wonder if ESPN is stuck with other US local team coverage for their alternate games? We got NESN's coverage of the Bruins-Sabres with the Boston homers ... they were awful!!! I've read that Derek Sanderson is the colour analyst ... I wonder if he spent his early yea
+
+[Doc 5]
+Never was? Probably. Is not now? Debatable. What other valid test can you think of besides the final standings or divisional playoff winner? What do you propose, a worthless vote like they do in college football? What a joke! If I remember right, Brad Park was also involved in that trade. He wasn't all that bad a hockey player. But let's look at some of Sinden's trades over the years: ??? for Rick Middleton (Rangers). I don't know who Sinden gave up for Middle- ton, so I'll call this one a +. Barry Pederson for Cam Neely (Canucks). +++. Any questions? Greg Hawgood for Vladimir Ruzicka (Oilers)
+
+[Doc 6]
+Well, I'm back from Tokyo, so here are the standings after the April 13 update. - Andrew USENET Hockey Draft Standings Week 27 Posn Team Pts Proj Cash Last Posn 1. Dave Wessels 1536 1572.8 1.9 (1) 2. Bob Hill 1481 1538.1 24.0 (3) 3. Gilles Carmel 1492 1529.9 1.0 (2) 4. Seppo Kemppainen 1430 1514.0 47.2 (5) 5. The Awesome Oilers 1412 1504.4 68.6 (4) 6. Hillside Raiders 1456 1495.2 7.0 (7) 7. Mak "The Knife" Paranjape 1424 1491.7 31.0 (6) 8. Jan Stein 1412 1483.2 35.3 (8) 9. this years model 1428 1479.3 17.6 (10) 10. Rangers Of Destiny 1401 1475.9 42.0 (9) Tapio Repo 1422 1475.9 19.6 (11) 12. FR
+
+[Doc 7]
+I think this guy is going to be just a little bit disappointed. Lemieux two, Tocchet, Mullen, Tippett, and Jagr. I buzzed my friend because I forgot who had scored Mullen's goal. I said, "Who scored? Lemieux two, Tocchet, Tippett, Jagr." The funny part was I said the "Jagr" part non-chalantly as he was in the process of scoring while I was asking this question!!! :-) All in all ABC's coverage wasn't bad. On a scale of 1-10, I give it about an 8. How were the games in the Chi/St. Louis/LA area??? That's stupid!!! I'd complain to the television network! If I were to even see a Pirates game on in
+
+[Doc 8]
+Since everyone else seems to be running wild with predictions, I've decided to add my own fuel to the fire: They might seem a bit normal, but there are a few (albeit, small) surprises. American League East W L GB 1)New York Yankees 93 69 -- 2)Baltimore Orioles 90 72 3 3)Toronto Blue Jays 86 76 7 4)Cleveland Indians 84 78 9 5)Boston Red Sox 77 85 16 6)Milwaukee Brewers 74 88 19 7)Detroit Tigers 73 89 20 American League West W L GB 1)Minnesota Twins 94 68 -- 2)Kansas City Royals 92 70 2 3)Texas Rangers 85 77 9 4)Chicago White Sox 77 85 17 5)Oakland Athletics 74 88 20 6)Seattle Mariners 70 92 24
+
+NOW RETURN STRICT JSON ONLY.

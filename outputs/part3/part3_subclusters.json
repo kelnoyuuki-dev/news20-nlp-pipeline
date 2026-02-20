@@ -1,0 +1,420 @@
+{
+  "parent_clusters": [
+    {
+      "cluster_id": 0,
+      "parent_label": "people / just / think",
+      "parent_size": 9891,
+      "subclusters": [
+        {
+          "subcluster_id": 0,
+          "size": 5454,
+          "label_mode": "packet",
+          "label": "people / just / like",
+          "fallback_keywords": [
+            "people",
+            "just",
+            "like",
+            "think",
+            "know",
+            "time",
+            "right",
+            "government"
+          ],
+          "representatives": [
+            {
+              "global_index": 11406,
+              "rank": 0,
+              "distance": 0.8563444018363953,
+              "text": ": In article <1r6p8oINN8hi@clem.handheld.com>, jmd@cube.handheld.com (Jim De : > : > I have not made up my mind about Waco, but there sure seems to be a group of : > devoted government following fanatics willing to believe whatever that : > government wants to tell them, without any shred of doubt, nor thought of thier : > own. They sure get shrill whenever their belief structure is being shaken. : > : > Kinda reminds you of the BDs, doesn't it? : > : > Jim : Go to hell. I'm no \"government [-] following fanatic.\" Your sweeping : generalizations evince your own ignorance. What were they suppose"
+            },
+            {
+              "global_index": 7118,
+              "rank": 1,
+              "distance": 0.8584427237510681,
+              "text": "Woops. I'm not sure if I screwed up, but this is either forgery or some sort of mistake (aborted post that didn't abort) on my part. Bogus article below if seen in another post should be ignored.. --------------------------------------------------------------------------- / iftccu:talk.politics.guns / bressler@iftccu.ca.boeing.com (Rick Bressler) / 3:29 pm Apr 13, 1993 / / iftccu:talk.politics.guns / papresco@undergrad.math.uwaterloo.ca (Paul Prescod) / 1:49 am Apr 12, 1993 / Let's look at this critically: 1.How many guns did this illegal manufacturing site make compared to -------------------"
+            },
+            {
+              "global_index": 11102,
+              "rank": 2,
+              "distance": 0.8589280247688293,
+              "text": "From: \"dan mckinnon\" <dan.mckinnon@canrem.com> I have lurked here a bit lately, and though some of the math is unknown to me, found it interesting. I thought I would post an article I found in the Saturday, April 17, 1993 Toronto Star: 'CLIPPER CHIP' to protect privacy Politics is of course Dirty Pool, old man, and here we have a classic example: the NSA and the administration have been working on this for a *long* time, and in parallel with the announcement to us techies, we see they're hitting the press with propoganda. It's my bet the big magazines - Byte, Scientific American, et all - will"
+            },
+            {
+              "global_index": 13561,
+              "rank": 3,
+              "distance": 0.8632909655570984,
+              "text": "Again we have the trust in government problem here. Members of Mr. Sternlight's generation trust the government to a degree which members of my generation find ridiculous. I would suggest that Mr. Sternlight read about the COINTELPRO program, or about J. Edgar Hoover, or about the wire-tapping of Martin Luther King, then, after he has digested this information he can ponder the fact that while the government does not tap every conversation that they have a record of tapping many conversations that they have no right to, even under their own laws. Given the long history of members of the US gov"
+            },
+            {
+              "global_index": 16959,
+              "rank": 4,
+              "distance": 0.8643627762794495,
+              "text": "The Denver Post (supposed voice of the supposed Rocky Mountain Empire) ran the following in the 'Firearms, Supplies' classified heading on Friday, 23 April 1993. If you have an opinion about their new found wisdom, I am told that the person to speak with is one Mr. Walters, (303)820-1267. Notice The Denver Post will no longer knowingly accept any advertise- ment to buy or sell assault weap- ons. The Denver Post finds that the use of assault weapons poses a threat to the health, safety, and security of its readers. Let 'em know what you think... --Dan -- Spooksmoke: Revolution, Assasination, Th"
+            },
+            {
+              "global_index": 14892,
+              "rank": 5,
+              "distance": 0.8655079007148743,
+              "text": "-----BEGIN PGP SIGNED MESSAGE----- Please note that the following speech was made by Chuck Hammill in 1987. Address all letters to his address, given at the end of this document. -- Russell FROM CROSSBOWS TO CRYPTOGRAPHY: THWARTING THE STATE VIA TECHNOLOGY Given at the Future of Freedom Conference, November 1987 You know, technology--and particularly computer technology--has often gotten a bad rap in Libertarian cir- cles. We tend to think of Orwell's 1984, or Terry Gilliam's Brazil, or the proximity detectors keeping East Berlin's slave/citizens on their own side of the border, or the so- phi"
+            },
+            {
+              "global_index": 15746,
+              "rank": 6,
+              "distance": 0.8661201596260071,
+              "text": "Well, isn't this just a hoot! :) All I read on this group is a bunch of ppl fearing the misuses of information by the big bad evil govt. This just happens to be a case of an ordinary-joe-netter, who decided that he would create and/or distribute some misinformation. Ppl buy into BS posts like this (I know, because I forwarded a copy of the post to my office mate, who turned around and was (although he won't admit it...sorry Joe!) ready to get in a fight about F-O-R-F-E-I-T-U-R-E!!!) Please, if we're going to hold our govt (which admittedly has had and still has its problems) to high standards,"
+            },
+            {
+              "global_index": 10540,
+              "rank": 7,
+              "distance": 0.8667908906936646,
+              "text": ":>Hey, gang, it's not about duck hunting, or about dark alleys, :>it's about black-clad, helmeted and booted troops storming :>houses and violating civil rights under color of law. :> :>Are YOU ready to defend YOUR Constitution? : :Its also about crazy fatigue clad survivalist types blasting the :snot out of people who accidentally stray onto his land in the :name of 'self defense.' Well, the count is now at least 86 dead by government action. How many have been killed in the last year in the manner you described? What, no facts? Oh, how silly of me; I forgot, you don't like guns, so you don't"
+            }
+          ],
+          "llm_packet_path": "outputs\\part3\\llm_packets\\cluster_0_sub0_label_packet.txt"
+        },
+        {
+          "subcluster_id": 1,
+          "size": 1694,
+          "label_mode": "packet",
+          "label": "game / team / year",
+          "fallback_keywords": [
+            "game",
+            "team",
+            "year",
+            "games",
+            "think",
+            "like",
+            "just",
+            "hockey"
+          ],
+          "representatives": [
+            {
+              "global_index": 11693,
+              "rank": 0,
+              "distance": 0.7396634817123413,
+              "text": "Here are the standings after game 2 of each of the divisional semi-final series. - Andrew USENET Hockey Playoff Draft Standings Posn Team Pts Rem Last Posn 1. Sneddon Scorers 77 25 (1) 2. Arctic Circles 75 25 (75) Northern Lights 75 25 (33) Threepeat 75 25 (19) 5. fighting amish 74 25 (161) Team Elvis 74 25 (11) 7. chris roney 73 25 (33) Myers Marauders 73 25 (--) the dead ducks 73 25 (11) 10. Les Poteux 72 25 (--) Sludge 72 25 (75) Paige Faults 72 25 (33) Sam & His Dogs 72 25 (33) The Borg 72 25 (2) Hurricane Andrew 72 25 (4) Lewey's Lakers 72 25 (102) Einstien's Punk Band 72 25 (9) 18. Homes"
+            },
+            {
+              "global_index": 13617,
+              "rank": 1,
+              "distance": 0.7519664764404297,
+              "text": "I really feel the need for a knowledgable hockey observer to explain this year's playoffs to me. I mean, the obviously superior Toronto team with the best center and the best goalie in the league keeps losing. What gives? -- ------------------------------------------------------------------------------- I stand by all the misstatements that I've made. -- Vice President Dan Quayle to Sam Donaldson, 8/17/89"
+            },
+            {
+              "global_index": 1088,
+              "rank": 2,
+              "distance": 0.7556363344192505,
+              "text": "What are the Leafs to do? I am a Leaf supporter and I say the Leafs are going down in four unless there is nothing short of a miracle or a stroke of genenius hits Pat Burns. If you were Pat Burns what would you do? Living in the Bay area, I do not get enough Leaf coverage to pull something out of the bag, (I would appreciate comments on the Leaf/Detroit 3rd line match-ups) but here is the basic idea... Andreychuck and Borchevsky have no business playing against the Wings. They are too small. The key to any Leafs success will have to be Clark. He is the only centre who can have any presence wit"
+            },
+            {
+              "global_index": 8891,
+              "rank": 3,
+              "distance": 0.7589842677116394,
+              "text": "We're probably stuck, as Mike Burger pointed out that the baseball deal was made far in advance of the NHL contract. WABC did the same thing; they were thankful that the Devils were wiped out by 9:30, because they had to switch over to Yankees baseball. The proof of the reasons for this is left to the reader ... It's too bad, but I wonder if ESPN is stuck with other US local team coverage for their alternate games? We got NESN's coverage of the Bruins-Sabres with the Boston homers ... they were awful!!! I've read that Derek Sanderson is the colour analyst ... I wonder if he spent his early yea"
+            },
+            {
+              "global_index": 4781,
+              "rank": 4,
+              "distance": 0.7599554657936096,
+              "text": "Never was? Probably. Is not now? Debatable. What other valid test can you think of besides the final standings or divisional playoff winner? What do you propose, a worthless vote like they do in college football? What a joke! If I remember right, Brad Park was also involved in that trade. He wasn't all that bad a hockey player. But let's look at some of Sinden's trades over the years: ??? for Rick Middleton (Rangers). I don't know who Sinden gave up for Middle- ton, so I'll call this one a +. Barry Pederson for Cam Neely (Canucks). +++. Any questions? Greg Hawgood for Vladimir Ruzicka (Oilers)"
+            },
+            {
+              "global_index": 10716,
+              "rank": 5,
+              "distance": 0.7607951760292053,
+              "text": "Well, I'm back from Tokyo, so here are the standings after the April 13 update. - Andrew USENET Hockey Draft Standings Week 27 Posn Team Pts Proj Cash Last Posn 1. Dave Wessels 1536 1572.8 1.9 (1) 2. Bob Hill 1481 1538.1 24.0 (3) 3. Gilles Carmel 1492 1529.9 1.0 (2) 4. Seppo Kemppainen 1430 1514.0 47.2 (5) 5. The Awesome Oilers 1412 1504.4 68.6 (4) 6. Hillside Raiders 1456 1495.2 7.0 (7) 7. Mak \"The Knife\" Paranjape 1424 1491.7 31.0 (6) 8. Jan Stein 1412 1483.2 35.3 (8) 9. this years model 1428 1479.3 17.6 (10) 10. Rangers Of Destiny 1401 1475.9 42.0 (9) Tapio Repo 1422 1475.9 19.6 (11) 12. FR"
+            },
+            {
+              "global_index": 10170,
+              "rank": 6,
+              "distance": 0.7608915567398071,
+              "text": "I think this guy is going to be just a little bit disappointed. Lemieux two, Tocchet, Mullen, Tippett, and Jagr. I buzzed my friend because I forgot who had scored Mullen's goal. I said, \"Who scored? Lemieux two, Tocchet, Tippett, Jagr.\" The funny part was I said the \"Jagr\" part non-chalantly as he was in the process of scoring while I was asking this question!!! :-) All in all ABC's coverage wasn't bad. On a scale of 1-10, I give it about an 8. How were the games in the Chi/St. Louis/LA area??? That's stupid!!! I'd complain to the television network! If I were to even see a Pirates game on in"
+            },
+            {
+              "global_index": 7672,
+              "rank": 7,
+              "distance": 0.7623374462127686,
+              "text": "Since everyone else seems to be running wild with predictions, I've decided to add my own fuel to the fire: They might seem a bit normal, but there are a few (albeit, small) surprises. American League East W L GB 1)New York Yankees 93 69 -- 2)Baltimore Orioles 90 72 3 3)Toronto Blue Jays 86 76 7 4)Cleveland Indians 84 78 9 5)Boston Red Sox 77 85 16 6)Milwaukee Brewers 74 88 19 7)Detroit Tigers 73 89 20 American League West W L GB 1)Minnesota Twins 94 68 -- 2)Kansas City Royals 92 70 2 3)Texas Rangers 85 77 9 4)Chicago White Sox 77 85 17 5)Oakland Athletics 74 88 20 6)Seattle Mariners 70 92 24 "
+            }
+          ],
+          "llm_packet_path": "outputs\\part3\\llm_packets\\cluster_0_sub1_label_packet.txt"
+        },
+        {
+          "subcluster_id": 2,
+          "size": 2743,
+          "label_mode": "packet",
+          "label": "people / just / think",
+          "fallback_keywords": [
+            "people",
+            "just",
+            "think",
+            "jesus",
+            "know",
+            "believe",
+            "like",
+            "does"
+          ],
+          "representatives": [
+            {
+              "global_index": 5794,
+              "rank": 0,
+              "distance": 0.7774996161460876,
+              "text": "Your last remark is a contradiction, but I'll let that pass. I was addressing the notion of the Great Commission, which you deleted in order to provide us with dull little homilies. Thank you, Bing Crosby. Now you go right on back to sleep and mommy and daddy will tuck you in later. Oh, and how convenient his bible must have been to Michael Griffin, how convenient his Christianity. \"Well, I'll just skip the bit about not murdering people and loving the sinner and hating the sin and all that other stuff for now and concentrate on the part where it says that if someone is doing something wrong, "
+            },
+            {
+              "global_index": 2491,
+              "rank": 1,
+              "distance": 0.7881301641464233,
+              "text": "Andrew, How I wish this were true, and how I long for the day in which it will be true. But alas, it is not true of history. The Bible does not have a message -- it has messages. And some of those are messages of repentance and giving, to turn the other cheek, and do unto the least of these. But some of the messages are the complete opposite. Like the isrealites order to wipe out other tribes including women and children down to cattle, and punished severely when they were less than complete about the job. Like jews who are said to have cried out in Matthew, \"His blood be upon our heads and ou"
+            },
+            {
+              "global_index": 5826,
+              "rank": 2,
+              "distance": 0.7948347330093384,
+              "text": "A listmember (D Andrew Killie, I think) wrote, in response to the suggestion that genocide may sometimes be the will of God: > Any God who works that way is indescribably evil, > and unworthy of my worship or faith. Nobuya \"Higgy\" Higashiyama replied (as, in substance, did others): > Where is your source of moral standards by which you judge God's > behavior? It is often argued that we have no standing by which to judge God's actions. Who is the clay to talk back to the potter? But we find a contrary view in Scripture. When God proposes to destroy the city of + Suppose that there are some good"
+            },
+            {
+              "global_index": 10881,
+              "rank": 3,
+              "distance": 0.7963300943374634,
+              "text": "Desiree Bradley (Desiree_Bradley@mindlink.bc.ca) asked us whether we should think of the Serbs as doing God's work in Bosnia. I've refrained from posting, in hope that someone who is more familiar with the OT than I would answer. But at this point I feel I have to say something. Many things about this posting bother me. I know of not the slightest suggestion in the NT that Christians should use force to propagate the Gospel, and the idea that we should not be concerned about the death of Moslems violates the heart of the Gospel. Christ died to break down these distinctions. In him there is nei"
+            },
+            {
+              "global_index": 5845,
+              "rank": 4,
+              "distance": 0.797642707824707,
+              "text": "As our local.religion.christian BBS group seems moribund, I'm posting here. On one of the Sundays just before Easter I went to church. The sermon was based on a story in the Book of Joshua. (The one about Joshua sending out spies to the land he was planning to take) What I particularly remember, because of having heard part of a CBC radio documentary on Bosnia, was that the Rahab (the woman who sheltered the spies) said that the people were \"melting in fear.\" What with having heard that CBC radio documentary and knowing that the Muslims in Bosnia were losing the war, I felt uncomfortable. Afte"
+            },
+            {
+              "global_index": 1266,
+              "rank": 5,
+              "distance": 0.8082332015037537,
+              "text": ": >Based on the amount of E-Mail from fellow Christians who have read the : >posts and told me I was wasting my time with Butler and Joslin, I told : >them I wasn't doing it for DB or DJ but for other Christians. They : >have told me that DB's and DJ's arguments won't convince most Bible : >studying Christians. So I have reevaluated my purpose here and it's : >also contributed to my decision. : So most Bible-studying Christians won't be convinced by my arguments? : And this is supposed to be a Good Thing, I presume? Where does this \"Most Bible studying Christians think as Frank does\" come from"
+            },
+            {
+              "global_index": 14204,
+              "rank": 6,
+              "distance": 0.8102146983146667,
+              "text": "\"savior\" that their Tolerent, aren't we? Their's was hardly the first faith/sect/cult to espouse this type of belief. and I keep hearing this, and while I'll agree that he \"should\" have come out (legally, that was his best option), he didn't; and as far as I know, there is no legal provision for \"we're tired of this shit, lets just kick some ass...\" So I have a question for you; here goes. I come up to you and point a gun at you, saying \"I'm going to count to ten, if you aren't standing on your head by then, I'll kill you.\" You believe that standing on your head is the road to damnation, so yo"
+            },
+            {
+              "global_index": 12368,
+              "rank": 7,
+              "distance": 0.8108780384063721,
+              "text": "Sadly understandable... Yes. To be fair, you should really qualify this as semitic-western religions, but you basically go ahead and do this later on anyway. Again, this should really be evaluated at a personal level. For example, there was only one Jesus (presumably), and he probably didn't say all that many things, and yet (seemingly) billions and billions of Christian sects have arisen. Perhaps there is one that is totally dedicated to rationalism and believes in Christ as in pantheism. It would seem to go against the Bible, but it is amazing what people come up with under the guise of \"per"
+            }
+          ],
+          "llm_packet_path": "outputs\\part3\\llm_packets\\cluster_0_sub2_label_packet.txt"
+        }
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "parent_label": "like / know / thanks",
+      "parent_size": 8430,
+      "subclusters": [
+        {
+          "subcluster_id": 0,
+          "size": 2386,
+          "label_mode": "packet",
+          "label": "windows / thanks / file",
+          "fallback_keywords": [
+            "windows",
+            "thanks",
+            "file",
+            "program",
+            "know",
+            "like",
+            "does",
+            "files"
+          ],
+          "representatives": [
+            {
+              "global_index": 7568,
+              "rank": 0,
+              "distance": 0.7943994998931885,
+              "text": "Visual Numerics Inc. (formerly IMSL and Precision Visuals) is in the process of securing sites for beta testing X Exponent Graphics 1.0 and C Exponent Graphics 2.0. (Both X Exponent Graphics and C Exponent Graphics are 3GL products). The beta period is from April 26 through June 18. The platform is HP9000/700 running under OS 8.07 with ansi C 8.71 compiler. The media will be sent on 4mm DAT cartridge tape. Here are some of the key facts about the two products. X Exponent Graphics 1.0 key facts: 1. Complete collection of high-level 2D and 3D application plot types available through a large coll"
+            },
+            {
+              "global_index": 10460,
+              "rank": 1,
+              "distance": 0.7970288395881653,
+              "text": "If a X-window package exists, that runs om PC, DOS (and maybe MS-windows) I would be very happy to hear about it. Thanx in advance."
+            },
+            {
+              "global_index": 13827,
+              "rank": 2,
+              "distance": 0.7982192039489746,
+              "text": "From 9150618 Thu Apr 29 16:36:43 1993 Date: Thu, 29 Apr 1993 16:36:42 +1000 From: 9150618 (Gavin Fairlamb) To: 9130037 Status: R Hello, folks... I am doing a uni. project and was wondering if you could supply with some specific info. or references for info. regarding 1). Considerations for installation of XWindows in a HP 9000(unknown model) 2). Motif, OPENLOOK, XToolkit, Linux???? 3). X11, X11R.... 4). Glossary of any term on X We considering this software for the project which deals in image analysis... Any info. would be greatly appreciated."
+            },
+            {
+              "global_index": 13325,
+              "rank": 3,
+              "distance": 0.8027510643005371,
+              "text": "From 9150618 Thu Apr 29 16:36:43 1993 Date: Thu, 29 Apr 1993 16:36:42 +1000 From: 9150618 (Gavin Fairlamb) To: 9130037 Status: R Hello, folks... I am doing a uni. project and was wondering if you could supply with some specific info. or references for info. regarding 1). Considerations for installation of XWindows in a HP 9000(unknown model) 2). Motif, OPENLOOK, XToolkit???? 3). X11, X11R.... 4). Glossary of any term on X We considering this software for the project which deals in image analysis... Any info. would be greatly appreciated."
+            },
+            {
+              "global_index": 1803,
+              "rank": 4,
+              "distance": 0.8063851594924927,
+              "text": "Are there any TIFF to anything programs out there for the IBM? Our scanner works into TIFF, and I can view it on CSHOW 8.1, but all of my other programs read errors. Are there any basic Tiff to JPEG, GIF, PCX, BMP, etc...? Thanks for the time...Email or post acceptable. Joshuaf"
+            },
+            {
+              "global_index": 16786,
+              "rank": 5,
+              "distance": 0.8079317212104797,
+              "text": "I'm posting this request again since the last one had no title. I'm looking for X server software on DOS or Windows. I've already seen Desqview/X and XVision but would like to be aware of other solutions, namely public domain or shareware implementations. I'd also like to know, in the commercial case, about possible problems, incompatibilities, available window managers and libraries, etc. If you have any experiences in this area please let me know. C U! By(e)"
+            },
+            {
+              "global_index": 10038,
+              "rank": 6,
+              "distance": 0.8108547329902649,
+              "text": "I would be grateful to anyone who knows about an X-windows application that would emulate HP 2623A graphics in a manner similar to the way TEK graphics windows are implemented in xterm. Thanks for you help."
+            },
+            {
+              "global_index": 18413,
+              "rank": 7,
+              "distance": 0.8142761588096619,
+              "text": "Bristol Technology announces the availability of its HyperHelp(tm) and Xprinter(tm) demo for downloading. This demo showcases the two products in the form of a diagram editor called DE. Download the demo and see some of these exciting features for yourself: o Complete on-line context sensitive help system. o Printing support for PCL5 and PostScript. o Rotated Text support! o Source code for the demo is provided. The demo is available via anonymous ftp from ftp.uu.net (137.39.1.9). There are two versions of the demo located in the vendor/Bristol directory: Sun - sun4.demo.tar.Z (SunOS 4.x) HP -"
+            }
+          ],
+          "llm_packet_path": "outputs\\part3\\llm_packets\\cluster_1_sub0_label_packet.txt"
+        },
+        {
+          "subcluster_id": 1,
+          "size": 2544,
+          "label_mode": "packet",
+          "label": "drive / card / know",
+          "fallback_keywords": [
+            "drive",
+            "card",
+            "know",
+            "does",
+            "like",
+            "scsi",
+            "thanks",
+            "just"
+          ],
+          "representatives": [
+            {
+              "global_index": 6733,
+              "rank": 0,
+              "distance": 0.7596328854560852,
+              "text": "386DX 25Mhz (DTK motherboard Intel microprocessor) 128k internal cache 4 megs Ram 89 meg Harddrive (IDE controller) 1.2 meg floppy drive 1.44 meg floppy drive 2 serial ports 1 parallel port Samsung VGA monitor VGA graphics card 101 key keyboard 2400 baud internal modem MS-DOS 6.0 Procomm Plus ver. 2.0 Norton Utilities ver. 4.5 other varius utilities I'm upgrading and need to sell. The system is reliable and ready to go. I've never had any problems with it. I'm asking $1050 o.b.o. If you're interested, please respond by either E-mail or phone. TAE0460@zeus.tamu.edu or 409-696-6043"
+            },
+            {
+              "global_index": 17793,
+              "rank": 1,
+              "distance": 0.7646275162696838,
+              "text": "I have the following system for sale. 386DX 25Mhz (DTK motherboard Intel microprocessor) 64k external cache 4 megs Ram 89 meg Harddrive (IDE controller) 1.2 meg floppy drive 1.44 meg floppy drive 2 serial ports 1 parallel port Samsung VGA monitor SVGA graphics card (tseng labs w/ 1meg) awesome card. 101 key keyboard 2400 baud internal modem Software: MS-DOS 6.0 Procomm Plus ver. 2.0 Norton Utilities ver. 4.5 other various utilities I'm upgrading and need to sell. The system is reliable and ready to go. I've never had any problems with it. I'm asking $1000 o.b.o. If you're interested, please re"
+            },
+            {
+              "global_index": 5561,
+              "rank": 2,
+              "distance": 0.7670121192932129,
+              "text": "From: sam.halperin@cccbbs.uceng 486 DX 50 mHz in Zero Insertion Force Socket Empty over-drive socket EISA motherboard with 256k cache -->2 32 bit EISA Slots -->2 32 bit VESA local bus slots -->4 16 bit ISA slots 8 MB 70ns RAM -->8 SIMMS sockets filled with 1mb strips (0 sockets open) 32 bit EISA IDE hard drive controller 330 Meg IDE hard disk drive w/ 64k cache (12ms) Diamond Viper Weitek 9000 VESA local bus graphics card w/ 2mb 15\" MAG MX15F monitor 2 Serial(NS16550AFN UART), 1 parralell & 1 game ports Full tower case -->250 Watt power supply -->5 X 5.25\" bays -->2 X 3.5\" bays -->2 X Hard Dri"
+            },
+            {
+              "global_index": 14985,
+              "rank": 3,
+              "distance": 0.7694751620292664,
+              "text": "Sorry for the frequency of the posting (I'm in a time crunch). I'm selling my toys so I can afford a house :_( -Amiga 4000/040 -25 MHz 68040 (built in FPU/MMU) -18 megs of RAM, 2 megs of video RAM, expandable to 2 gigabytes -A2091 SCSI controller -Fujitsu 520M 3.5\" SCSI drive, 12ms, 3 years warranty -1 year of on-site service remaining -$3000 OBO -Epson ES300C full page 600DPI, 24 bit color scanner w/sware and ADPro loader -software (standalone and ADPro loader) -docs -cable -$850 -Supra FAXmodem V.32 bis, 14.4K, latest ROMs -$205 -SCSI CD-ROM drive, 400ms, internal -$225 -Mitsubishi DiamondSc"
+            },
+            {
+              "global_index": 9545,
+              "rank": 4,
+              "distance": 0.7694798111915588,
+              "text": "After a rough start purchasing a 486 system (see earlier post), I'm trying again. I'm looking at the following system offered by EPS Technologies: - 486dx 33mhz w/ 256K static RAM cache,AMI Bios - 3 32-bit VESA local bus slots, 3 16-bit slots, 1 8-bit slot - Teac 1.2 & 1.44 mb floppy drives - Maxtor 170 MB hard drive (15 ms) IDE w/64K cache buffer - 32-bit vesa local bus video card w/ 1mb RAM 1024 X 768 NI (I *think* it's an Orchid Fahrenheit 1280 card) - 14\" NI Multisync monitor 1024 X 768 - 101 Keyboard - 200 Watt power supply - Windows 3.1, Mouse, DOS 6.0 - *3* years limited warranty - 1 ye"
+            },
+            {
+              "global_index": 3569,
+              "rank": 5,
+              "distance": 0.7697749137878418,
+              "text": "Gene's stuff for sale...NEW PRICES!!! The following items are for sale: Qty. Description List Price ________________________________________________________________________ 1 SuperMac ColorLink SX/T 24 bit NuBUS/10BASE-T 750.00 _549.00_ This card is primo! selling for $675 mailorder It suports monitors up to 19 in. with 28\" x 28\" virtual desktop. Accelerated, hardware pan, etc! This quick sale price includes free 2nd day air! 1 Seagate ST1480 430 meg 3.5 in HD 2 mo. old 989.00 675.00 NOTE: All hardware is in normal working order. Prices do NOT include shipping. All items shipped COD (USA) or p"
+            },
+            {
+              "global_index": 18793,
+              "rank": 6,
+              "distance": 0.7735422253608704,
+              "text": "I would like to sell my PS/2 Model 50, with its Kingston SX/Now! 33MHz processor, a Cyrix FasMath coprocessor (CPU/FPU LandMark scores of 46.6MHz/107.8MHz), 8 Meg (9 Meg total) on a AST Advantage/2 board (0 wait state), original 20 Meg hard drive, and a very fast Adaptec 1640 SCSI controller card (worth around $300 new) with software to control any external or internal SCSI device. I'm including Dos 6.0 (or 5.0), and keyboard. The VGA will drive any multisynching or straight VGA (cheap) monitor."
+            },
+            {
+              "global_index": 5043,
+              "rank": 7,
+              "distance": 0.7739506363868713,
+              "text": "I'm buying a new system this week to replace my brain dead 286, and could use some feedback on a couple systems I'm looking at if anyone is familiar with them. The system that looks the most interesting is the Budget 486/66 VLB tower. For about $2343 (delivered) it offers VLB, 8MB, 200MB IDE, a Mitsumi CD-ROM (with software bundle), Media Vision Sound board, 14\" CTX 1468NI, 128K Cache, and the usual drives, ports, & OS software. Since my budget is $2350 for a system, it seems almost too good to be true (which may mean it IS too good to be true, of course). Among other things, I've never seen a"
+            }
+          ],
+          "llm_packet_path": "outputs\\part3\\llm_packets\\cluster_1_sub1_label_packet.txt"
+        },
+        {
+          "subcluster_id": 2,
+          "size": 3500,
+          "label_mode": "packet",
+          "label": "like / know / thanks",
+          "fallback_keywords": [
+            "like",
+            "know",
+            "thanks",
+            "just",
+            "good",
+            "does",
+            "mail",
+            "used"
+          ],
+          "representatives": [
+            {
+              "global_index": 3494,
+              "rank": 0,
+              "distance": 0.851835310459137,
+              "text": "Well, I have it forsale again (the last deal didn't work out) and I lowered the price again! Cobra 146 GTL Single side band w/mike --> $75 or best offer! dave --------------------------------------------------------------------------------Cal Poly, Life, Liberty, and the SLO, CA 93401 Pursuit of Land Speed Records. -Autobahn Commuters"
+            },
+            {
+              "global_index": 3312,
+              "rank": 1,
+              "distance": 0.8534718155860901,
+              "text": "FOR SALE 1990 Mitsubishi Eclipse GSX * All Wheel Drive * 195 HP, 16 Valve, Turbo * 5 Speed Transmission * Limited Slip Differential * AM/FM Stereo w/CD Player, Cassette, 6 Speakers * Fog Lights * Air Conditioning * Cruise Control * Electric Windows * Front & Rear Intermittent Wipers & Washers * Alloy Wheels * Undercoated & Rustproofed * 22,000 Miles * Maui Blue * Excellent Condition * Asking $ 11,899 (negotiable)"
+            },
+            {
+              "global_index": 8943,
+              "rank": 2,
+              "distance": 0.8554590940475464,
+              "text": "Lots of misc and radio related items for sale! Still trying to lighten my load for moving! Motorola VHF pager, digital, no voice or readout $15 2 Capacitor checkers HP 200CD audio oscillator 5 hz to 600 Khz. 1200 feet + brand new 1/2\" hardline for tv with new connectors, this is in 5 pieces lots of Gain mobile antennas for VHF and UHF UHF *amp*, input on 75 Mhz in milliwatts and output on 450 Mhz, 30 watts out. with service manual, this came out of a Motorola mobilephone. make reasonable offer. looking for $40 + shipping or trade for? RCA tac 300 UHF dash mount 2channel w/service manual, great"
+            },
+            {
+              "global_index": 17466,
+              "rank": 3,
+              "distance": 0.856347382068634,
+              "text": "I've got a 4PR1000A (EIMAC) unused transmitter tube for sale. Best offer so far is $125. That's getting close to what I'll sell it for. Hamfest prices have been about $200 - $250. It works, guaranteed. Original packaging. -- -------------------------------------------------------------------- Dave Medin Phone: (205) 730-3169 (w) SSD--Networking (205) 837-1174 (h) Intergraph Corp. M/S GD3004 Internet: dtmedin@catbyte.b30.ingr.com Huntsville, AL 35894 UUCP: ...uunet!ingr!b30!catbyte!dtmedin"
+            },
+            {
+              "global_index": 16563,
+              "rank": 4,
+              "distance": 0.8565428853034973,
+              "text": "I'm posting this for a friend, but you can e-mail questions to me at gyeh@cc.bellcore.com However, the best way to get your questions answered is to call the phone number listed. FOR SALE: 1991 Volkswagon Corrado 2+2 coupe Low mileage: approx. 28,000 miles 5-speed manual 7 speaker factory Blaupunkt stereo system New all-weather Yokohamas 205/50VR15 Sun roof AC Red Speed activated spoiler Extra set of tires - Pirelli P600 195VR15 ** Equipped with factory Winter package - heated seats, mirrors and nozzles. ** Alpine security system with 2 remotes. All records - documentation, service Pampered ca"
+            },
+            {
+              "global_index": 9701,
+              "rank": 5,
+              "distance": 0.857776939868927,
+              "text": "1992 Saturn SL2 5spd 23K miles AC, cruise, ABS, Air Bag, Cassette, Anti Theft Excellent 12,000/obo Consider 85-88 4dr 5spd compact as part trade"
+            },
+            {
+              "global_index": 14637,
+              "rank": 6,
+              "distance": 0.857804536819458,
+              "text": "I'm selling an assortment of goods!! They're all in excellent shape (the amp and detector were rarely used). Thule rack with locks for VW GTI or Jetta (2yrs)........ $75 Silca floor bike pump (pink) ........................... 20 Uniden Radar Detector (X and K bands, orig $134) ....... 75 Blaupunkt 60W car amp (orig $150) ...................... 75 Shipping included in all prices. Interested? Please respond by email (whsld login or sldenton@cbnewsj.cb.att.com) or phone (201) 386-2949 office."
+            },
+            {
+              "global_index": 12574,
+              "rank": 7,
+              "distance": 0.8585337996482849,
+              "text": "F O R S A L E ================ Triumph Spitfire '76, 1500 - Convertible - 54,000k original miles - Burgandy Color - Wooden Dashboard - No rust - Garage kept - Heater - Chrome bumpers(not the black plastic crap) - Brand new top - Asking $3,000 --negotiable * Mechanically the car is in a very good shape and it is running very-very strong(if you know what I mean)...:) * Plenty of catalogs and manuals are coming with the car If you are interested in the car please reply to this message. I AM NOT INTERESTED OR WILLING TO SELL ANY PARTS. The car is in a very good condition to strip it."
+            }
+          ],
+          "llm_packet_path": "outputs\\part3\\llm_packets\\cluster_1_sub2_label_packet.txt"
+        }
+      ]
+    }
+  ]
+}
